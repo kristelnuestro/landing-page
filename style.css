@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+/* Navigation Links inside Header element*/
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 18px;
+}
+
+a:hover, button:hover {     /* Navigation Links and Button Hover */
+    background-color: #394c66;
+}
+
+/* Header and Footer Background */
+header, footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+/* Footer */
+footer {
+    padding: 16px;
+    text-align: center;
+}
+
+/* Navigation Links and Hero Secondary Text */
+a, .section1 p, .action p {
+    color: #e5e7eb;
+}
+
+/* Hero Section:: hero, hero-container, section1 and section2 */
+.hero {
+    background-color: #394c6693;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 5rem;
+    justify-content: center;
+} 
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+   /* width: 250px; */
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 450px;
+}
+
+.section1 p {
+    font-size: 18px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+}
+
+.section2 img {
+    width:400px;
+}
+
+/* Button Style in Hero Section and Action Section */
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+  
+.signup1 {
+    background: #3882f6;
+    border: #3882f6;
+    color: white;
+}
+
+/* Action Section */
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 900px;
+    padding: 3rem;
+    margin: 5rem 2rem;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text {
+    font-size: 18px;
+}
+
+.right {
+    max-width: 500px;
+}
+
+.signup2 {
+    background: #3882f6;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+/* Random Information Section */
+.random {
+    display: flex;
+    justify-content: center;
+}
+
+.random-container {
+    width: 900px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.random-title {
+    text-align: center;
+    padding: 18px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.random-items-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 18px;
+}
+
+.random-items {
+    max-width: 200px;
+}
+
+.random-items img {  /* Image Border, Adjusted width & height */
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.random-items-description {
+    text-align: center;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote-container {
+    width: 900px;
+    margin: 1rem;
+}
+
+.quote-container p {  /* Signature */
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+blockquote::before {
+    content: "\201c";
+}
+
+blockquote::after {
+    content: "\201d";
+}
+
+
